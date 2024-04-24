@@ -23,7 +23,7 @@ public class BusinessUser : User
     public BusinessUser()
     {
     }
-    
+
     public string CNPJ { get; set; }
     public string SocialReason { get; set; }
     public string FantasyName { get; set; }

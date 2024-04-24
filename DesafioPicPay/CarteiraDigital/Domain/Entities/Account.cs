@@ -2,7 +2,7 @@
 {
     public class Account
     {
-        public Account(string accountNumber, string digit, string accountType, double balance, Bank bank, Agency branch, User user)
+        public Account(string accountNumber, string digit, string accountType, decimal balance, Bank bank, Agency branch, User user)
         {
             AccountNumber = accountNumber;
             Digit = digit;
@@ -21,7 +21,7 @@
         public string AccountNumber { get; set; }
         public string Digit { get; set; }
         public string AccountType { get; set; }
-        public double Balance { get; set; }
+        public decimal Balance { get; set; }
         public Bank Bank { get; set; }
         public Agency Branch { get; set; }
         public User User { get; set; }
